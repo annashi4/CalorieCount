@@ -14,6 +14,7 @@
 		95BE57E2286507C80002196A /* FoodModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 95BE57E0286507C80002196A /* FoodModel.xcdatamodeld */; };
 		95BE57E4286508B80002196A /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95BE57E3286508B80002196A /* DataController.swift */; };
 		95BE57E828650C480002196A /* AddFoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95BE57E728650C480002196A /* AddFoodView.swift */; };
+		95BE57EA2865197B0002196A /* TimeFormating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95BE57E92865197B0002196A /* TimeFormating.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		95BE57E1286507C80002196A /* FoodModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FoodModel.xcdatamodel; sourceTree = "<group>"; };
 		95BE57E3286508B80002196A /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		95BE57E728650C480002196A /* AddFoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFoodView.swift; sourceTree = "<group>"; };
+		95BE57E92865197B0002196A /* TimeFormating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeFormating.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				95BE57D12865076D0002196A /* CalorieCountApp.swift */,
-				95BE57E628650C180002196A /* Models */,
+				95BE57E628650C180002196A /* Extentions */,
 				95BE57E528650C0D0002196A /* Views */,
 				95BE57D32865076D0002196A /* ContentView.swift */,
 				95BE57DF286507AD0002196A /* DataModel */,
@@ -93,11 +95,12 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		95BE57E628650C180002196A /* Models */ = {
+		95BE57E628650C180002196A /* Extentions */ = {
 			isa = PBXGroup;
 			children = (
+				95BE57E92865197B0002196A /* TimeFormating.swift */,
 			);
-			path = Models;
+			path = Extentions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,6 +177,7 @@
 				95BE57D42865076D0002196A /* ContentView.swift in Sources */,
 				95BE57E4286508B80002196A /* DataController.swift in Sources */,
 				95BE57D22865076D0002196A /* CalorieCountApp.swift in Sources */,
+				95BE57EA2865197B0002196A /* TimeFormating.swift in Sources */,
 				95BE57E2286507C80002196A /* FoodModel.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
