@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  CalorieCount
-//
-//  Created by Anna on 24.06.2022.
-//
-
 import SwiftUI
 
 struct ContentView: View {
