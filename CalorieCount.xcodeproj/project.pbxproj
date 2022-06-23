@@ -13,6 +13,7 @@
 		95BE57D92865076F0002196A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95BE57D82865076F0002196A /* Preview Assets.xcassets */; };
 		95BE57E2286507C80002196A /* FoodModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 95BE57E0286507C80002196A /* FoodModel.xcdatamodeld */; };
 		95BE57E4286508B80002196A /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95BE57E3286508B80002196A /* DataController.swift */; };
+		95BE57E828650C480002196A /* AddFoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95BE57E728650C480002196A /* AddFoodView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		95BE57D82865076F0002196A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		95BE57E1286507C80002196A /* FoodModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FoodModel.xcdatamodel; sourceTree = "<group>"; };
 		95BE57E3286508B80002196A /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		95BE57E728650C480002196A /* AddFoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFoodView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,8 @@
 			isa = PBXGroup;
 			children = (
 				95BE57D12865076D0002196A /* CalorieCountApp.swift */,
+				95BE57E628650C180002196A /* Models */,
+				95BE57E528650C0D0002196A /* Views */,
 				95BE57D32865076D0002196A /* ContentView.swift */,
 				95BE57DF286507AD0002196A /* DataModel */,
 				95BE57D52865076F0002196A /* Assets.xcassets */,
@@ -79,6 +83,21 @@
 				95BE57E3286508B80002196A /* DataController.swift */,
 			);
 			path = DataModel;
+			sourceTree = "<group>";
+		};
+		95BE57E528650C0D0002196A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				95BE57E728650C480002196A /* AddFoodView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		95BE57E628650C180002196A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +170,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95BE57E828650C480002196A /* AddFoodView.swift in Sources */,
 				95BE57D42865076D0002196A /* ContentView.swift in Sources */,
 				95BE57E4286508B80002196A /* DataController.swift in Sources */,
 				95BE57D22865076D0002196A /* CalorieCountApp.swift in Sources */,
@@ -300,7 +320,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -329,7 +349,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
