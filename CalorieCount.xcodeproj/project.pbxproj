@@ -15,6 +15,7 @@
 		95BE57E4286508B80002196A /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95BE57E3286508B80002196A /* DataController.swift */; };
 		95BE57E828650C480002196A /* AddFoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95BE57E728650C480002196A /* AddFoodView.swift */; };
 		95BE57EA2865197B0002196A /* TimeFormating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95BE57E92865197B0002196A /* TimeFormating.swift */; };
+		95DD8CE72865A74B00D5E026 /* AddCalorieViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DD8CE62865A74B00D5E026 /* AddCalorieViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		95BE57E3286508B80002196A /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		95BE57E728650C480002196A /* AddFoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFoodView.swift; sourceTree = "<group>"; };
 		95BE57E92865197B0002196A /* TimeFormating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeFormating.swift; sourceTree = "<group>"; };
+		95DD8CE62865A74B00D5E026 /* AddCalorieViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCalorieViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				95BE57E92865197B0002196A /* TimeFormating.swift */,
+				95DD8CE62865A74B00D5E026 /* AddCalorieViewModel.swift */,
 			);
 			path = Extentions;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 				95BE57E4286508B80002196A /* DataController.swift in Sources */,
 				95BE57D22865076D0002196A /* CalorieCountApp.swift in Sources */,
 				95BE57EA2865197B0002196A /* TimeFormating.swift in Sources */,
+				95DD8CE72865A74B00D5E026 /* AddCalorieViewModel.swift in Sources */,
 				95BE57E2286507C80002196A /* FoodModel.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
