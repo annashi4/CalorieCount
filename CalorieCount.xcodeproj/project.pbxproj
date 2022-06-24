@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		952E67022865DEC0006FA295 /* EditFoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952E67012865DEC0006FA295 /* EditFoodView.swift */; };
 		95BE57D22865076D0002196A /* CalorieCountApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95BE57D12865076D0002196A /* CalorieCountApp.swift */; };
 		95BE57D42865076D0002196A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95BE57D32865076D0002196A /* ContentView.swift */; };
 		95BE57D62865076F0002196A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95BE57D52865076F0002196A /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		952E67012865DEC0006FA295 /* EditFoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditFoodView.swift; sourceTree = "<group>"; };
 		95BE57CE2865076D0002196A /* CalorieCount.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalorieCount.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95BE57D12865076D0002196A /* CalorieCountApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalorieCountApp.swift; sourceTree = "<group>"; };
 		95BE57D32865076D0002196A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -64,7 +66,6 @@
 				95BE57D12865076D0002196A /* CalorieCountApp.swift */,
 				95BE57E628650C180002196A /* Extentions */,
 				95BE57E528650C0D0002196A /* Views */,
-				95BE57D32865076D0002196A /* ContentView.swift */,
 				95BE57DF286507AD0002196A /* DataModel */,
 				95BE57D52865076F0002196A /* Assets.xcassets */,
 				95BE57D72865076F0002196A /* Preview Content */,
@@ -92,6 +93,8 @@
 		95BE57E528650C0D0002196A /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				95BE57D32865076D0002196A /* ContentView.swift */,
+				952E67012865DEC0006FA295 /* EditFoodView.swift */,
 				95BE57E728650C480002196A /* AddFoodView.swift */,
 			);
 			path = Views;
@@ -182,6 +185,7 @@
 				95BE57D22865076D0002196A /* CalorieCountApp.swift in Sources */,
 				95BE57EA2865197B0002196A /* TimeFormating.swift in Sources */,
 				95DD8CE72865A74B00D5E026 /* AddCalorieViewModel.swift in Sources */,
+				952E67022865DEC0006FA295 /* EditFoodView.swift in Sources */,
 				95BE57E2286507C80002196A /* FoodModel.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
