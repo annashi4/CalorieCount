@@ -1,7 +1,7 @@
 import Foundation
 
 
-func culcTimeSince(date: Date) -> String {
+func calcTimeSince(date: Date) -> String {
     let minutes = Int(-date.timeIntervalSinceNow)/60
     let hours = minutes/60
     let days = hours/24
