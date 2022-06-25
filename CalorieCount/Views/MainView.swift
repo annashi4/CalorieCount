@@ -1,7 +1,8 @@
 import SwiftUI
 import CoreData
 
-struct ContentView: View {
+struct MainView: View {
+    
     @Environment(\.managedObjectContext) var managedObjectContext
     @FetchRequest (sortDescriptors: [SortDescriptor(\.date, order: .reverse)]) var food: FetchedResults<Food>
     
@@ -73,6 +74,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        MainView()
     }
 }
