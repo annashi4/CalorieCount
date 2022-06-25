@@ -11,10 +11,14 @@ struct MainView: View {
     
     var body: some View {
         NavigationView{
-            VStack(alignment: .leading){
+            VStack{
+            ZStack{
+                Circle()
+                    .foregroundColor(.mint).opacity(0.3)
+                    .frame(width: 40, height: 40)
                 Text("\(Int(totalCaloriesToday())) Kcal (Today)")
-                    .foregroundColor(.gray)
-                    .padding(.horizontal)
+                .foregroundColor(.black)}
+                .padding(.horizontal)
                 List {
                     ForEach(food) { food in
                         NavigationLink(destination: EditFoodView(food: food)) {
@@ -22,7 +26,8 @@ struct MainView: View {
                                 VStack (alignment: .leading, spacing: 6) {
                                     Text(food.name!)
                                         .bold()
-                                    Text("\(Int(food.calories))") + Text(" calories").foregroundColor(.green)
+                                        .foregroundColor(.black)
+                                    Text("\(Int(food.calories))") + Text(" calories").foregroundColor(.black)
                                 }
                                 Spacer()
                                 Text(calcTimeSince(date: food.date!))
@@ -32,6 +37,7 @@ struct MainView: View {
                     .onDelete(perform: deleteFood)
                 }
                 .listStyle(.plain)
+            
             }
             .navigationTitle("Calories Counter")
             .toolbar{
@@ -77,3 +83,4 @@ struct ContentView_Previews: PreviewProvider {
         MainView()
     }
 }
+
